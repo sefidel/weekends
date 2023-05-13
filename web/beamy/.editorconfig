@@ -1,0 +1,15 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# editorconfig.org
+
+root = true
+
+[*.md]
+# double whitespace at end of line
+# denotes a line break in Markdown
+trim_trailing_whitespace = false
+
+[*.nix]
+end_of_line = lf
+indent_style = space
+indent_size = 2
